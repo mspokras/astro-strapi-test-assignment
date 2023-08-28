@@ -1,0 +1,9 @@
+---
+const response = await fetch('http://localhost:1337/api/books');
+const data = await response.json();
+const booksData = data.data;
+---
+<h1>Welcome to our library!</h1>
+{booksData.map((book) => (
+	<p>"{book.attributes.Title}" by {book.attributes.Author} contains <b>{book.attributes.Pages}</b> pages.</p>
+))}
