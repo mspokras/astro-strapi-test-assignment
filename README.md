@@ -10,11 +10,11 @@ Make sure you have the following components installed:
 
 1. First, clone this repository:
 
-git clone https://github.com/your-username/test-assignment.git
+git clone https://github.com/mspokras/astro-strapi-test-assignment.git
 
 2. Navigate to the project folder:
 
-cd test-assignment
+cd astro-strapi-test-assignment
 
 3. Install dependencies:
 
