@@ -27,9 +27,12 @@ npm run dev
 Your Strapi backend will be available at http://localhost:1337
 Your Astro frontend will be available at http://localhost:3000
 
-5. Try to create a new book entry using the content manager at the backend server 
+5. Try to create a new book entry using the content manager at the backend server:
+
+http://localhost:1337
+"Open the administration" => "Content Manager" => "Book" => "Create new entry" => fill the empty fields => "Save" => "Publish"
 
 6. Check the frontend server with the data received from the backend (if previously saved and published)
 
-
+http://localhost:3000
 
